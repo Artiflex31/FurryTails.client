@@ -1,0 +1,106 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About Us",
+      "url": "/about"
+    },
+    {
+      "label": "Programs & Initiatives",
+      "subMenu": [
+        {
+          "label": "Rescue & Rehabilitation",
+          "url": "/rescue"
+        },
+        {
+          "label": "Adoption Services",
+          "url": "/adoption"
+        },
+        {
+          "label": "Wildlife Conservation",
+          "url": "/conservation"
+        }
+      ]
+    },
+    {
+      "label": "Donate",
+      "subMenu": [
+        {
+          "label": "One-Time Donations",
+          "url": "/one-time-donations"
+        },
+        {
+          "label": "Monthly Giving",
+          "url": "/monthly-giving"
+        },
+        {
+          "label": "Sponsor an Animal",
+          "url": "/sponsor-an-animal"
+        },
+        {
+          "label": "Corporate Partnerships",
+          "url": "/corporate-partnerships"
+        }
+      ]
+    },
+    {
+      "label": "Volunteer",
+      "subMenu": [
+        {
+          "label": "Volunteer Opportunities",
+          "url": "/volunteer-opportunities"
+        },
+        {
+          "label": "Volunteer Application",
+          "url": "/volunteer-application"
+        },
+        {
+          "label": "Volunteer Stories",
+          "url": "/volunteer-stories"
+        }
+      ]
+    },
+
+    {
+      "label": "Events",
+      "subMenu": [
+        {
+          "label": "Fundraising Events",
+          "url": "/fundraising-events"
+        },
+        {
+          "label": "Adoption Drives",
+          "url": "/adoption-drives"
+        },
+        {
+          "label": "Awareness Campaigns",
+          "url": "/awareness-campaigns"
+        }
+      ]
+    },
+    {
+      "label": "Success Stories",
+      "subMenu": [
+        {
+          "label": "Rescue & Rehabilitation",
+          "url": "/success-rescue"
+        },
+        {
+          "label": "Adoption Stories",
+          "url": "/success-adoption"
+        },
+        {
+          "label": "Wildlife Conservation",
+          "url": "/success-conservation"
+        }
+      ]
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact"
+    }
+  ]
+}

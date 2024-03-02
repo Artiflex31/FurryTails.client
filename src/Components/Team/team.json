@@ -1,0 +1,22 @@
+[
+  {
+    "imageSrc": "https://i.postimg.cc/qMykK5hs/poornendu.jpg",
+    "name": "Poornendu Bajpai",
+    "role": "Founder, CEO & CTO"
+  },
+  {
+    "imageSrc": "https://i.postimg.cc/4djg76X2/pranjit.jpg",
+    "name": "Pranjit Kakoti",
+    "role": " Animal Care Specialist"
+  },
+  {
+    "imageSrc": "https://i.postimg.cc/3wJ7PrL1/aditya.jpg",
+    "name": "Aditya Gupta",
+    "role": "Adoption Counselor"
+  },
+  {
+    "imageSrc": "https://i.postimg.cc/FRYvHWXJ/piyush.jpg",
+    "name": "Piyush Kumar",
+    "role": "Wildlife Conservationist"
+  }
+]
