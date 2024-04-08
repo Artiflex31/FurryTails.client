@@ -1,6 +1,5 @@
 import React from "react";
 import teams from "../Team/team.json";
-
 import TeamCard from "../Card/TeamCard";
 
 function Team() {
@@ -17,6 +16,8 @@ function Team() {
               imageSrc={team.imageSrc}
               name={team.name}
               role={team.role}
+              facebook={team.facebook}
+              linkedin={team.linkedin}
             />
           ))}
         </div>

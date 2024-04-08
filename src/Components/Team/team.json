@@ -2,21 +2,29 @@
   {
     "imageSrc": "https://i.postimg.cc/qMykK5hs/poornendu.jpg",
     "name": "Poornendu Bajpai",
-    "role": "Founder, CEO & CTO"
+    "role": "Founder, CEO & CTO",
+    "facebook": "https://www.facebook.com/puru.bajpai.1?mibextid=ZbWKwL",
+    "linkedin": "https://www.linkedin.com/in/poornendu-bajpai-392a1322a"
   },
   {
     "imageSrc": "https://i.postimg.cc/4djg76X2/pranjit.jpg",
     "name": "Pranjit Kakoti",
-    "role": " Animal Care Specialist"
+    "role": " Animal Care Specialist",
+    "facebook": "https://www.facebook.com/profile.php?id=100076014226513&mibextid=ZbWKwL",
+    "linkedin": "https://www.linkedin.com/in/pranjit-kakoti-493028229/"
   },
   {
     "imageSrc": "https://i.postimg.cc/3wJ7PrL1/aditya.jpg",
     "name": "Aditya Gupta",
-    "role": "Adoption Counselor"
+    "role": "Adoption Counselor",
+    "facebook": "www.facebook.com",
+    "linkedin": "https://www.linkedin.com/in/aditya-gupta-0b856a246/"
   },
   {
     "imageSrc": "https://i.postimg.cc/FRYvHWXJ/piyush.jpg",
     "name": "Piyush Kumar",
-    "role": "Wildlife Conservationist"
+    "role": "Wildlife Conservationist",
+    "facebook": "https://www.facebook.com/profile.php?id=100076330083103&mibextid=ZbWKwL",
+    "linkedin": "https://www.linkedin.com/in/piyush-kumar-wd/"
   }
 ]

@@ -14,6 +14,7 @@ import { BiChevronDown, BiChevronUp } from "react-icons/bi";
 
 import navlinks from "./navlinks.json";
 import { IconContext } from "react-icons";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const { links } = navlinks;
@@ -61,7 +62,7 @@ const Navbar = () => {
                   disabled={!item.subMenu} // Disable if there's no submenu
                 >
                   {item.subMenu.map((subItem, subIndex) => (
-                    <option key={subIndex} value={subItem.url}>
+                    <option className="" key={subIndex} value={subItem.url}>
                       {subItem.label}
                     </option>
                   ))}
@@ -97,12 +98,15 @@ const Navbar = () => {
       <div className="hidden desktop-sm:flex desktop-sm:justify-center desktop-sm:gap-7 desktop-sm:py-5 desktop-sm:text-[#555555] desktop-sm:font-[500] ">
         <ul className=" flex flex-col space-y-3 desktop-sm:space-y-0 desktop-sm:flex-row desktop-sm:space-x-7">
           {links.map((item, index) => (
-            <li key={index} className="relative">
-              <a
-                onMouseEnter={() => handleMouseEnter(item.label)}
-                onMouseLeave={handleMouseLeave}
-                href={item.url}
-                className="hover:text-[#888888] hover:scale-90 cursor-pointer flex items-center gap-1"
+            <li
+              key={index}
+              className="relative"
+              onMouseEnter={() => handleMouseEnter(item.label)}
+              onMouseLeave={handleMouseLeave}
+            >
+              <Link
+                to={item.url}
+                className="hover:text-[#888888] hover:scale-90 cursor-pointer flex items-center gap-1 "
               >
                 {item.label}
 
@@ -112,11 +116,11 @@ const Navbar = () => {
                   ) : (
                     <BiChevronDown />
                   ))}
-              </a>
+              </Link>
               {currentLink === item.label && item.subMenu && (
-                <ul className="absolute top-5 shadow-xl p-8">
+                <ul className="absolute top-5 shadow-xl p-8 z-50 bg-background ">
                   {item.subMenu.map((subItem, subIndex) => (
-                    <li key={subIndex} className="mt-5">
+                    <li key={subIndex} className="mt-5 hover:scale-90">
                       <a href={subItem.url}>{subItem.label}</a>
                     </li>
                   ))}

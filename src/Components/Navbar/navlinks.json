@@ -13,15 +13,15 @@
       "subMenu": [
         {
           "label": "Rescue & Rehabilitation",
-          "url": "/rescue"
+          "url": "/programs&initiatives/rescue&rehabilitation"
         },
         {
           "label": "Adoption Services",
-          "url": "/adoption"
+          "url": "/programs&initiatives/adoption"
         },
         {
           "label": "Wildlife Conservation",
-          "url": "/conservation"
+          "url": "/programs&initiatives/conservation"
         }
       ]
     },
@@ -29,12 +29,8 @@
       "label": "Donate",
       "subMenu": [
         {
-          "label": "One-Time Donations",
-          "url": "/one-time-donations"
-        },
-        {
-          "label": "Monthly Giving",
-          "url": "/monthly-giving"
+          "label": "Donation Plans",
+          "url": "/donate/donationplans"
         },
         {
           "label": "Sponsor an Animal",
@@ -51,7 +47,7 @@
       "subMenu": [
         {
           "label": "Volunteer Opportunities",
-          "url": "/volunteer-opportunities"
+          "url": "/volunteer/opportunities"
         },
         {
           "label": "Volunteer Application",
@@ -82,21 +78,7 @@
       ]
     },
     {
-      "label": "Success Stories",
-      "subMenu": [
-        {
-          "label": "Rescue & Rehabilitation",
-          "url": "/success-rescue"
-        },
-        {
-          "label": "Adoption Stories",
-          "url": "/success-adoption"
-        },
-        {
-          "label": "Wildlife Conservation",
-          "url": "/success-conservation"
-        }
-      ]
+      "label": "Success Stories"
     },
     {
       "label": "Contact Us",

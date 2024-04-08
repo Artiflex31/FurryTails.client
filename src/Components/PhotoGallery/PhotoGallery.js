@@ -7,16 +7,6 @@ function PhotoGallery() {
   return (
     <div className="bg-gray-100 py-12">
       <div className="max-w-6xl mx-auto text-center">
-        {/* <div className="flex item-start mb-8">
-          <IconContext.Provider value={{ color: "#FF7043", size: "4rem" }}>
-            <GiJumpingDog />
-          </IconContext.Provider>
-          <h2 className="text-4xl font-bold mb-2">furranimals</h2>
-        </div>
-        <p className="flex itam-start text-lg text-gray-600">
-          Explore our collection of amazing photos that showcase our mission and
-          work.
-        </p> */}
         <div className="flex items-center gap-4 justify-start text-5xl m-4">
           <IconContext.Provider value={{ color: "#FF7043", size: "4rem" }}>
             <GiJumpingDog />

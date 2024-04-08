@@ -17,11 +17,11 @@ export default function Navicons() {
         <ul className="flex flex-col sm:flex-row items-center gap-1 sm:gap-4 w-full">
           <li>
             <a
-              href="tel:+917665446080"
+              href="tel:+918924901326"
               target="phone"
               className="flex items-center text-sm gap-1"
             >
-              <FaPhoneAlt /> +91-7665446080
+              <FaPhoneAlt /> +91-8924901326
             </a>
           </li>
           <li>
@@ -37,17 +37,26 @@ export default function Navicons() {
         </ul>
         <ul className="hidden sm:flex gap-4">
           <li>
-            <a href="#" target="facebook">
+            <a
+              href="https://www.facebook.com/puru.bajpai.1?mibextid=ZbWKwL"
+              target="facebook"
+            >
               <FaFacebookSquare />
             </a>
           </li>
           <li>
-            <a href="#" target="phone">
+            <a
+              href="https://www.instagram.com/bajpai_puru?igsh=MTFtYTdqcGFqYzVjeA=="
+              target="instagram"
+            >
               <BsInstagram />
             </a>
           </li>
           <li>
-            <a href="#" target="phone">
+            <a
+              href="https://youtube.com/@Artiflex31?feature=shared"
+              target="youtube"
+            >
               <FaYoutube />
             </a>
           </li>
