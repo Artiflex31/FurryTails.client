@@ -1,0 +1,88 @@
+{
+  "links": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About Us",
+      "url": "/about"
+    },
+    {
+      "label": "Programs & Initiatives",
+      "subMenu": [
+        {
+          "label": "Rescue & Rehabilitation",
+          "url": "/programs&initiatives/rescue&rehabilitation"
+        },
+        {
+          "label": "Adoption Services",
+          "url": "/programs&initiatives/adoption"
+        },
+        {
+          "label": "Wildlife Conservation",
+          "url": "/programs&initiatives/conservation"
+        }
+      ]
+    },
+    {
+      "label": "Donate",
+      "subMenu": [
+        {
+          "label": "Donation Plans",
+          "url": "/donate/donationplans"
+        },
+        {
+          "label": "Sponsor an Animal",
+          "url": "/sponsor-an-animal"
+        },
+        {
+          "label": "Corporate Partnerships",
+          "url": "/corporate-partnerships"
+        }
+      ]
+    },
+    {
+      "label": "Volunteer",
+      "subMenu": [
+        {
+          "label": "Volunteer Opportunities",
+          "url": "/volunteer/opportunities"
+        },
+        {
+          "label": "Volunteer Application",
+          "url": "/volunteer-application"
+        },
+        {
+          "label": "Volunteer Stories",
+          "url": "/volunteer-stories"
+        }
+      ]
+    },
+
+    {
+      "label": "Events",
+      "subMenu": [
+        {
+          "label": "Fundraising Events",
+          "url": "/fundraising-events"
+        },
+        {
+          "label": "Adoption Drives",
+          "url": "/adoption-drives"
+        },
+        {
+          "label": "Awareness Campaigns",
+          "url": "/awareness-campaigns"
+        }
+      ]
+    },
+    {
+      "label": "Success Stories"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact"
+    }
+  ]
+}

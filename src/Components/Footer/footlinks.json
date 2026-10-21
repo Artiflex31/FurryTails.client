@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Discover",
+    "links": [
+      { "label": "About Us", "href": "/" },
+      { "label": "Our Mission", "href": "/" },
+      { "label": "Testimonials", "href": "/" }
+    ]
+  },
+  {
+    "title": "Get Involved",
+    "links": [
+      { "label": "Volunteer Opportunities", "href": "/" },
+      { "label": "Donate to Animal Welfare", "href": "/" },
+      { "label": "Adoption Guide", "href": "/" }
+    ]
+  },
+  {
+    "title": "Connect",
+    "links": [
+      { "label": "Contact Us", "href": "/" },
+      { "label": "Social Media", "href": "/" },
+      { "label": "Support Center", "href": "/" }
+    ]
+  }
+]
